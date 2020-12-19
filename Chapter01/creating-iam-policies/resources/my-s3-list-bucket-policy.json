@@ -5,10 +5,10 @@
       "Sid": "MyS3ListBucketPolicy",
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::awsseccookbook",
+      "Resource": "arn:aws:s3:::awsseccookbook419",
       "Condition": {
         "DateLessThan": {
-          "aws:EpochTime": "1560237648"
+          "aws:EpochTime": "1608935960"
         }
       }
     }
